@@ -8,7 +8,7 @@ jobs:
       - name: Print Information
         run: |
           pwd
-          ls- ll
+          ls -ll
           echo "This is my first demo  Hello World"
       - name: Check out code
         uses: actions/checkout@v3
